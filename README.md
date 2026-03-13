@@ -1,4 +1,4 @@
-see: **[Issues](/issues/)**
+see: **[Issues](/issues)**
 
 # Cantor ∞
 
