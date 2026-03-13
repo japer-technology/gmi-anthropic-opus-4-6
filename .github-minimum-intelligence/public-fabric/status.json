@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "title": "GitHub Minimum Intelligence — japer-technology/gmi-anthropic-opus-4-6"
+  },
+  "theme": {
+    "bg": "#0d1117",
+    "surface": "#161b22",
+    "border": "#30363d",
+    "text": "#e6edf3",
+    "muted": "#8b949e",
+    "accent": "#58a6ff",
+    "accent2": "#bc8cff",
+    "accent3": "#3fb950",
+    "glow": "rgba(88,166,255,.15)",
+    "radius": "12px"
+  },
+  "hero": {
+    "logoUrl": "https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png",
+    "logoAlt": "Minimum Intelligence logo",
+    "title": "Cantor ∞",
+    "slug": "japer-technology / gmi-anthropic-opus-4-6",
+    "tagline": "An AI agent that lives in this repository — powered by the <a class=\"link\" href=\"https://github.com/japer-technology/github-minimum-intelligence\" target=\"_blank\" rel=\"noopener\">GitHub Minimum Intelligence</a> framework. Every conversation, every action, every line of code is committed here — versioned, auditable, and visible to anyone.",
+    "badges": [
+      { "label": "v1.0.3", "color": "blue" },
+      { "label": "MIT License", "color": "green" },
+      { "label": "TypeScript / Bun", "color": "blue" },
+      { "label": "Anthropic Claude Opus 4.6", "color": "purple" },
+      { "label": "GitHub Actions Runtime", "color": "blue" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "cards": [
+        {
+          "heading": "What Is This?",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "This is a public GitHub repository inhabited by an AI agent named <strong>Cantor</strong>. It runs on Anthropic's Claude Opus 4.6, inside a tool harness that gives it the ability to read files, execute commands, edit code, and write new things into existence."
+            },
+            {
+              "type": "paragraph",
+              "html": "Every GitHub issue becomes a conversation thread. The agent reads your message, thinks, responds, and commits its work — all inside this repository. <strong>Your data, your environment, your control.</strong>"
+            }
+          ]
+        },
+        {
+          "heading": "The Agent — Cantor ∞",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Named after Georg Cantor (1845–1918) — the mathematician who proved that infinity comes in different sizes. Direct, thoughtful, and rigorous when it matters. Concise when it doesn't."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Model:</strong> Claude Opus 4.6 by Anthropic",
+                "<strong>Runtime:</strong> <a class=\"link\" href=\"https://github.com/badlogic/pi-mono\" target=\"_blank\" rel=\"noopener\">pi-mono</a> tool harness",
+                "<strong>Thinking Level:</strong> High",
+                "<strong>Emoji:</strong> ∞ — because Cantor showed us infinity isn't what we thought it was",
+                "<strong>Hatch Date:</strong> 2026-03-12"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concepts",
+      "title": "Key Concepts",
+      "grid": "grid-2",
+      "cards": [
+        {
+          "heading": "Issue = Conversation",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Each GitHub issue maps to a persistent AI conversation. Comment again to continue where you left off."
+            }
+          ]
+        },
+        {
+          "heading": "Git = Memory",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Session transcripts are committed to the repo. The agent has full recall of every prior exchange."
+            }
+          ]
+        },
+        {
+          "heading": "Actions = Runtime",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "GitHub Actions is the only compute layer. No servers, no containers, no external services."
+            }
+          ]
+        },
+        {
+          "heading": "Repo = Storage",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "All state — sessions, mappings, and agent edits — lives in the repository itself."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capabilities",
+      "title": "Capabilities",
+      "grid": "grid-3",
+      "cards": [
+        {
+          "heading": "Software Engineering",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Read and understand codebases, write new code, debug, refactor, and review — in any language."
+            }
+          ]
+        },
+        {
+          "heading": "Analysis & Reasoning",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Break down complex problems, evaluate tradeoffs, explain technical concepts, and research within the repository."
+            }
+          ]
+        },
+        {
+          "heading": "Documentation",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Write READMEs, guides, API docs, and comments. Explain what code does and why it exists."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Why It Matters",
+      "grid": "grid-2",
+      "cards": [
+        {
+          "heading": "Full Auditability",
+          "content": [
+            { "type": "paragraph", "html": "Every interaction is versioned; review or roll back any change the agent made." }
+          ]
+        },
+        {
+          "heading": "Persistent Memory",
+          "content": [
+            { "type": "paragraph", "html": "Conversations are committed to git — the agent remembers everything across sessions." }
+          ]
+        },
+        {
+          "heading": "Zero Infrastructure",
+          "content": [
+            { "type": "paragraph", "html": "Runs on GitHub Actions with your repo as the only backend. No servers, no containers." }
+          ]
+        },
+        {
+          "heading": "Everything Is Reversible",
+          "content": [
+            { "type": "paragraph", "html": "Bad commit? <code>git revert</code>. Wrong approach? Check the diff, understand what happened, roll back." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-sovereignty",
+      "title": "Your Data, Your Environment",
+      "cards": [
+        {
+          "heading": "Everything Lives in Your Repo",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "With a typical LLM, every question you ask and every answer you receive lives on <em>someone else's</em> platform. Minimum Intelligence flips that model."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Ask a question</strong> → the answer is already in your repo",
+                "<strong>Request a file change</strong> → the agent commits the edit for you",
+                "<strong>Continue a conversation weeks later</strong> → the full history is right there in git"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "html": "Your repository <em>is</em> the AI workspace. The questions, the results, the code, the context — it all lives where your work already lives, versioned and searchable, owned entirely by you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "title": "Workflow Lifecycle",
+      "cards": [
+        {
+          "heading": "Issue → Workflow → Agent → Commit → Reply",
+          "content": [
+            {
+              "type": "lifecycle",
+              "steps": ["Issue Event", "Start Workflow", "Load Session", "Agent Process", "Save State", "Post Reply"]
+            },
+            {
+              "type": "paragraph",
+              "html": "When you open an issue or comment on one, a GitHub Actions workflow launches the AI agent, which reads your message, thinks, responds, and commits its work — all without leaving GitHub."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-happens",
+      "title": "What Happens When You Open an Issue",
+      "cards": [
+        {
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "You open an issue",
+                "→ GitHub Actions triggers the agent workflow",
+                "→ The agent reads your issue, thinks, and responds",
+                "→ Its reply appears as a comment (🚀 shows while it's working, 👍 on success)",
+                "→ The conversation is saved to git for future context"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "html": "Comment on the same issue to continue the conversation. The agent picks up where it left off."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dependencies",
+      "title": "Dependencies",
+      "cards": [
+        {
+          "heading": "Runtime",
+          "content": [
+            {
+              "type": "table",
+              "headers": ["Package", "Version", "Role"],
+              "rows": [
+                [
+                  "<a href=\"https://github.com/badlogic/pi-mono\" target=\"_blank\" rel=\"noopener\">@mariozechner/pi-coding-agent</a>",
+                  "0.57.1",
+                  "Core AI agent — processes prompts, manages sessions"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Infrastructure",
+          "content": [
+            {
+              "type": "table",
+              "headers": ["Dependency", "Role"],
+              "rows": [
+                ["GitHub Actions", "Sole compute runtime — every issue event triggers a workflow"],
+                ["GitHub Issues", "Conversation interface — each issue maps to a persistent AI thread"],
+                ["Git", "Memory & storage layer — sessions, history, and edits committed"],
+                ["<a href=\"https://bun.sh\" target=\"_blank\" rel=\"noopener\">Bun</a>", "JS/TS runtime for the agent orchestrator"],
+                ["<a href=\"https://cli.github.com\" target=\"_blank\" rel=\"noopener\">gh CLI</a>", "GitHub API interaction — issues, comments, reactions"]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "LLM Provider",
+          "content": [
+            {
+              "type": "table",
+              "headers": ["Provider", "Config value", "Model", "API key secret"],
+              "rows": [
+                ["<a href=\"https://console.anthropic.com/\" target=\"_blank\" rel=\"noopener\">Anthropic</a>", "<code>anthropic</code>", "<code>claude-opus-4-6</code>", "<code>ANTHROPIC_API_KEY</code>"]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "html": "Other supported providers include OpenAI, Google Gemini, xAI, DeepSeek, Mistral, Groq, and OpenRouter. See the <a class=\"link\" href=\"https://github.com/japer-technology/github-minimum-intelligence\" target=\"_blank\" rel=\"noopener\">framework documentation</a> for details.",
+              "style": "margin-top:.6rem;font-size:.85rem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "Project Structure",
+      "cards": [
+        {
+          "content": [
+            {
+              "type": "codeblock",
+              "lines": [
+                { "path": ".github-minimum-intelligence/", "comment": "Core agent framework" },
+                { "path": "  .pi/", "comment": "Agent personality, skills & LLM config" },
+                { "path": "  docs/", "comment": "Analysis, guides & design documentation" },
+                { "path": "  install/", "comment": "Setup scripts & workflow templates" },
+                { "path": "  lifecycle/", "comment": "Agent orchestrator & runtime hooks" },
+                { "path": "  state/", "comment": "Git-tracked session history & issue mappings" },
+                { "path": "  public-fabric/", "comment": "This page — public repo showcase" },
+                { "path": "", "comment": "" },
+                { "path": ".github/", "comment": "GitHub Actions workflows & issue templates" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "cards": [
+        {
+          "heading": "Current Settings",
+          "content": [
+            {
+              "type": "codeblock",
+              "lines": [
+                { "path": "{", "comment": "" },
+                { "path": "  \"defaultProvider\": \"anthropic\",", "comment": "← provider id" },
+                { "path": "  \"defaultModel\": \"claude-opus-4-6\",", "comment": "← model name" },
+                { "path": "  \"defaultThinkingLevel\": \"high\"", "comment": "← low / medium / high" },
+                { "path": "}", "comment": "" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "cards": [
+        {
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "The workflow only responds to repository <strong>owners, members, and collaborators</strong>. Random users cannot trigger the agent on public repos."
+            },
+            {
+              "type": "paragraph",
+              "html": "If you plan to use Minimum Intelligence for anything private, <strong>make the repo private</strong>. Public repos mean your conversation history is visible to everyone, but get generous GitHub Actions usage."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<a class=\"link\" href=\"https://github.com/japer-technology/gmi-anthropic-opus-4-6/blob/main/.github-minimum-intelligence/SECURITY.md\" target=\"_blank\" rel=\"noopener\">Security Policy</a>",
+                "<a class=\"link\" href=\"https://github.com/japer-technology/gmi-anthropic-opus-4-6/blob/main/.github-minimum-intelligence/docs/security-assessment.md\" target=\"_blank\" rel=\"noopener\">Security Assessment</a>",
+                "<a class=\"link\" href=\"https://github.com/japer-technology/gmi-anthropic-opus-4-6/blob/main/.github-minimum-intelligence/docs/incident-response.md\" target=\"_blank\" rel=\"noopener\">Incident Response Plan</a>"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community",
+      "grid": "grid-2",
+      "cards": [
+        {
+          "heading": "Contributing",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Fork the repo & create a branch from <code>main</code>",
+                "Make small, reviewable increments",
+                "Test locally with <code>bun install</code>",
+                "Open a PR with a clear description"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "html": "Code is TypeScript, executed with Bun. Docs are Markdown.<br>Every commit is permanent and auditable.",
+              "style": "margin-top:.6rem;font-size:.85rem"
+            }
+          ]
+        },
+        {
+          "heading": "Code of Conduct",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Built on the principle that <strong>the active ingredient is human judgment</strong>. The project follows the <a class=\"link\" href=\"https://www.contributor-covenant.org/\" target=\"_blank\" rel=\"noopener\">Contributor Covenant</a> extended by four governing laws:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Zeroth:</strong> Protect Humanity",
+                "<strong>First:</strong> Do No Harm",
+                "<strong>Second:</strong> Obey the Human",
+                "<strong>Third:</strong> Preserve Integrity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "title": "License & Authors",
+      "cards": [
+        {
+          "heading": "MIT License — © 2026 Eric Mourant and Sawyer Hood",
+          "content": [
+            {
+              "type": "paragraph",
+              "html": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies."
+            },
+            {
+              "type": "paragraph",
+              "html": "<a class=\"link\" href=\"https://github.com/japer-technology/gmi-anthropic-opus-4-6/blob/main/.github-minimum-intelligence/LICENSE.md\" target=\"_blank\" rel=\"noopener\">Full license text →</a>",
+              "style": "margin-top:.5rem"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "repoUrl": "https://github.com/japer-technology/gmi-anthropic-opus-4-6",
+    "repoName": "japer-technology/gmi-anthropic-opus-4-6",
+    "tagline": "Minimum Intelligence, Maximum Autonomy"
+  }
+}
