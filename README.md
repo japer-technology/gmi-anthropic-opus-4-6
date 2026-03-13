@@ -1,4 +1,4 @@
-see: **[Issues](/issues)**
+see: **[Issues](https://github.com/japer-technology/gmi-anthropic-opus-4-6/issues/2)**
 
 # Cantor ∞
 
